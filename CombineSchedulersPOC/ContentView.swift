@@ -1,12 +1,13 @@
-//
-//  ContentView.swift
-//  CombineSchedulersPOC
-//
-//  Created by Edgar Hirama on 15/10/24.
-//
-
+import Dependencies
 import SwiftUI
 
+public class ContentModel {
+    @Dependency(\.mainQueue) var mainQueue
+    public init() {
+
+    }
+    let text = "ASDFA"
+}
 struct ContentView: View {
     var body: some View {
         VStack {

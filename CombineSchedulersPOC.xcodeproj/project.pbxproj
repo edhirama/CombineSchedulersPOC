@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		68F5AD2F2CBF41C000F568F4 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD2E2CBF41C000F568F4 /* CombineSchedulers */; };
+		68F5AD322CBF439400F568F4 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD312CBF439400F568F4 /* Dependencies */; };
+		68F5AD342CBF439400F568F4 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD332CBF439400F568F4 /* DependenciesMacros */; };
+		68F5AD362CBF439400F568F4 /* DependenciesTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD352CBF439400F568F4 /* DependenciesTestSupport */; };
+		68F5AD392CBF487600F568F4 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD382CBF487600F568F4 /* CombineSchedulers */; };
+		68F5AD3B2CBF487600F568F4 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD3A2CBF487600F568F4 /* Dependencies */; };
+		68F5AD3D2CBF487600F568F4 /* DependenciesMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD3C2CBF487600F568F4 /* DependenciesMacros */; };
+		68F5AD3F2CBF487600F568F4 /* DependenciesTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 68F5AD3E2CBF487600F568F4 /* DependenciesTestSupport */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		68F5AD112CBF40DA00F568F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F5AD2F2CBF41C000F568F4 /* CombineSchedulers in Frameworks */,
+				68F5AD322CBF439400F568F4 /* Dependencies in Frameworks */,
+				68F5AD342CBF439400F568F4 /* DependenciesMacros in Frameworks */,
+				68F5AD362CBF439400F568F4 /* DependenciesTestSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F5AD392CBF487600F568F4 /* CombineSchedulers in Frameworks */,
+				68F5AD3B2CBF487600F568F4 /* Dependencies in Frameworks */,
+				68F5AD3D2CBF487600F568F4 /* DependenciesMacros in Frameworks */,
+				68F5AD3F2CBF487600F568F4 /* DependenciesTestSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,7 @@
 				68F5AD012CBF40D800F568F4 /* CombineSchedulersPOC */,
 				68F5AD132CBF40DA00F568F4 /* CombineSchedulersPOCTests */,
 				68F5AD1D2CBF40DA00F568F4 /* CombineSchedulersPOCUITests */,
+				68F5AD372CBF487600F568F4 /* Frameworks */,
 				68F5AD002CBF40D800F568F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +110,13 @@
 				68F5AD1A2CBF40DA00F568F4 /* CombineSchedulersPOCUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		68F5AD372CBF487600F568F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +139,10 @@
 			);
 			name = CombineSchedulersPOC;
 			packageProductDependencies = (
+				68F5AD2E2CBF41C000F568F4 /* CombineSchedulers */,
+				68F5AD312CBF439400F568F4 /* Dependencies */,
+				68F5AD332CBF439400F568F4 /* DependenciesMacros */,
+				68F5AD352CBF439400F568F4 /* DependenciesTestSupport */,
 			);
 			productName = CombineSchedulersPOC;
 			productReference = 68F5ACFF2CBF40D800F568F4 /* CombineSchedulersPOC.app */;
@@ -135,6 +166,10 @@
 			);
 			name = CombineSchedulersPOCTests;
 			packageProductDependencies = (
+				68F5AD382CBF487600F568F4 /* CombineSchedulers */,
+				68F5AD3A2CBF487600F568F4 /* Dependencies */,
+				68F5AD3C2CBF487600F568F4 /* DependenciesMacros */,
+				68F5AD3E2CBF487600F568F4 /* DependenciesTestSupport */,
 			);
 			productName = CombineSchedulersPOCTests;
 			productReference = 68F5AD102CBF40DA00F568F4 /* CombineSchedulersPOCTests.xctest */;
@@ -195,6 +230,10 @@
 			);
 			mainGroup = 68F5ACF62CBF40D800F568F4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				68F5AD2D2CBF41C000F568F4 /* XCRemoteSwiftPackageReference "combine-schedulers" */,
+				68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 68F5AD002CBF40D800F568F4 /* Products */;
 			projectDirPath = "";
@@ -591,6 +630,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68F5AD2D2CBF41C000F568F4 /* XCRemoteSwiftPackageReference "combine-schedulers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/combine-schedulers.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-dependencies.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68F5AD2E2CBF41C000F568F4 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD2D2CBF41C000F568F4 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+		68F5AD312CBF439400F568F4 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		68F5AD332CBF439400F568F4 /* DependenciesMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesMacros;
+		};
+		68F5AD352CBF439400F568F4 /* DependenciesTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesTestSupport;
+		};
+		68F5AD382CBF487600F568F4 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD2D2CBF41C000F568F4 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+		68F5AD3A2CBF487600F568F4 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = Dependencies;
+		};
+		68F5AD3C2CBF487600F568F4 /* DependenciesMacros */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesMacros;
+		};
+		68F5AD3E2CBF487600F568F4 /* DependenciesTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F5AD302CBF439400F568F4 /* XCRemoteSwiftPackageReference "swift-dependencies" */;
+			productName = DependenciesTestSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68F5ACF72CBF40D800F568F4 /* Project object */;
 }
